@@ -15,6 +15,9 @@ function Form({inputText, setInputText, todos, setTodos}) {
   }
 //   This creates an object with the input field value, sets the completed value to false and generates a unique id for the object
 	function SubmitInputHandler() {
+			if (inputText === "") {
+		return;
+		}
 		setTodos([
 			...todos, {text:inputText, completed:false, id:new Date().getTime()}
 		])
