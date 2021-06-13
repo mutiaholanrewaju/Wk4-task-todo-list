@@ -1,5 +1,6 @@
 .todo-item {
     margin: 10px;
+    background-color: gray;
 }
 
 .todo-item input{

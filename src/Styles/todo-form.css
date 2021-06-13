@@ -8,7 +8,7 @@
 }
 
 .todo-form {
-  background-color: cornsilk;
+  background-color: darkslategray;
   border: 1px solid gray;
   border-radius: 10px;
   box-shadow: 0 5px 5px 1px rgb(179, 175, 175);
@@ -25,7 +25,9 @@
 
 #input-btn {
  max-width: fit-content;
- background-color: lime;
-
+ background-color: green;
+ justify-content: center;
+ align-items:center;
+ margin-left: 40px;
 }
 
